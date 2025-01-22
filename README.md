@@ -63,6 +63,30 @@
 - os
 - time
 
+# 打包
+
+1. 确保拥有pip命令：
+   ```bash
+   pip -V
+   ```
+
+2. 下载pyinstaller打包程序：
+   ```bash
+   pip install pyinstaller -i https://pypi.tuna.tsinghua.edu.cn/simple/
+   ```
+
+3.确认pyinstaller安装
+   ```bash
+   pyinstaller --version
+   ```
+
+4.在文件根目录打开命令窗（cmd）
+   ```bash
+   pyinstaller main.spec
+   ```
+
+5.等待片刻，即可在文件夹下的dist文件夹下看见`main.exe`文件了
+
 ## 贡献指南
 
 欢迎提交Pull Request！请确保：
