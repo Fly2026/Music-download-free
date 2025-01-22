@@ -8,6 +8,7 @@
 # API获取来源
 通过
 [MakcRe/KuGouMusicApi](https://github.com/MakcRe/KuGouMusicApi)
+搭建的api平台
 ## 功能特性
 
 - 支持音乐搜索
