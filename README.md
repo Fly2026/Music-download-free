@@ -5,6 +5,9 @@
 
 这是一个基于Python的音乐下载工具，可以搜索、获取并下载音乐。
 
+# API获取来源
+通过
+[MakcRe/KuGouMusicApi](https://github.com/MakcRe/KuGouMusicApi)
 ## 功能特性
 
 - 支持音乐搜索
