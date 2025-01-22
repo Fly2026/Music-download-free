@@ -40,16 +40,16 @@
    python main.py
    ```
 
-3.此时程序会跳转出一个window命令行窗口和一个GUI图形化界面
+3. 此时程序会跳转出一个window命令行窗口和一个GUI图形化界面
 
-4.此前未登录过可以尝试先在GUI页面搜索任意文本，命令行窗口就会弹出酷狗音乐的登录界面，
+4. 此前未登录过可以尝试先在GUI页面搜索任意文本，命令行窗口就会弹出酷狗音乐的登录界面，
 
-5.输入手机号和验证码即可获取用户token和id
-- 目前仅支持手机号与验证码登录，一定要先去[酷狗官网](https://www.kugou.com/)注册手机号，否则会显示没有此账号
+5. 输入手机号和验证码即可获取用户token和id
+-  目前仅支持手机号与验证码登录，一定要先去[酷狗官网](https://www.kugou.com/)注册手机号，否则会显示没有此账号
 
-6.一切完成后，项目根目录会生成一个`login_cache.json`文件，该文件存储的是登录用户的缓存信息，有效期1小时，时间过后需要重新登录
+6. 一切完成后，项目根目录会生成一个`login_cache.json`文件，该文件存储的是登录用户的缓存信息，有效期1小时，时间过后需要重新登录
 
-7.在下载音乐时，根目录会生成`download`文件夹存储音乐文件
+7. 在下载音乐时，根目录会生成`download`文件夹存储音乐文件
 
 ## 注意事项
 
@@ -75,17 +75,17 @@
    pip install pyinstaller -i https://pypi.tuna.tsinghua.edu.cn/simple/
    ```
 
-3.确认pyinstaller安装
+3. 确认pyinstaller安装
    ```bash
    pyinstaller --version
    ```
 
-4.在文件根目录打开命令窗（cmd）
+4. 在文件根目录打开命令窗（cmd）
    ```bash
    pyinstaller main.spec
    ```
 
-5.等待片刻，即可在文件夹下的dist文件夹下看见`main.exe`文件了
+5. 等待片刻，即可在文件夹下的dist文件夹下看见`main.exe`文件了
 
 ## 贡献指南
 
