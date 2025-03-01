@@ -1,4 +1,4 @@
-# Music-download-free
+# Music-download-free (免费获取音乐的APP)
 基于KugouMusic 概念版 API 获取音乐资源
 
 # 音乐下载工具
