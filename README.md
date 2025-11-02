@@ -4,6 +4,8 @@
 
 ## 运行
 
+### 1) 本地直接运行
+
 1. 克隆仓库并切换到项目目录
 2. 安装依赖：
    npm install
@@ -11,6 +13,19 @@
    npm start
 4. 在浏览器打开：
    http://localhost:3000
+
+### 2) 使用 Docker（推荐用于部署）
+
+1. 构建镜像：
+   docker build -t music-download-free-web:latest .
+2. 运行容器：
+   docker run -p 3000:3000 --rm --name music-download-free-web music-download-free-web:latest
+3. 或者使用 docker-compose：
+   docker-compose up --build -d
+
+打开浏览器访问：
+
+http://localhost:3000
 
 ## 使用说明
 
@@ -25,4 +40,4 @@
 
 ## 免责声明
 
-请确保下载行为遵守版权和目标站点的服务条款。本项目仅为技术示例。
+请确保下载行为遵守版权和目标站点的服务条款。本项目仅为技术示例.
