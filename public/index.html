@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Music Download (Proxy)</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>音乐/文件 下载器</h1>
+    <p>输入远程文件 URL（例如 mp3 链接、直链资源），点击“下载”即可。如果资源需要认证或受限，本工具可能无法下载。</p>
+
+    <form id="downloadForm">
+      <label for="url">远程文件 URL</label>
+      <input id="url" name="url" type="url" placeholder="https://example.com/path/to/song.mp3" required />
+      <div class="actions">
+        <button type="submit">下载</button>
+        <button type="button" id="clearBtn">清空</button>
+      </div>
+    </form>
+
+    <div id="info" class="info"></div>
+
+    <footer>
+      <small>代理下载由服务器完成以绕过 CORS。请遵守版权和站点条款。</small>
+    </footer>
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>
